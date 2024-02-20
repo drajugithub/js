@@ -7,8 +7,8 @@ let score = true
 // console.log(typeof valueInNumber);
 // console.log(valueInNumber);
 
-// "33 ==.> 33
-// "33abc" ==> NaN
+// number "33"=convert ===.> 33
+// "33abc" =convert => NaN// not a number 
 // true --> 1 / falsw ==> 0
 
 let isLoggedaIn = 1;
