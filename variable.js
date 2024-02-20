@@ -1,6 +1,6 @@
-const accountId=144553
-let accountemail = "raju@gmail.com"
-var accountpassword = "12345"
+const accountId=144553 // const means not changed it is fixed 
+let accountemail = "raju@gmail.com" // let can change 
+var accountpassword = "12345" // var can change 
 accountCity = "bengaluru"
 let accountState;
 
@@ -11,9 +11,9 @@ accountpassword="212121"
 accountCity="jaipur"
 
 /*
-prefrerd not use to var because of issue in SCOPE AND FUCNTIONALE SCOPE
+prefrerd not use to "var"  because of issue in block SCOPE AND FUCNTIONALE SCOPE
 */
 
 console.log(accountId);
-console.table([accountId,accountemail,accountpassword,accountCity]);
+console.table([accountId,accountemail,accountpassword,accountCity,accountState]);
 
